@@ -7,6 +7,6 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 ### Recomendações
 |Oque?|Tipo|Breve Descrição|
 |-----|----|---------------|
-    
+|Live Server|Extensão|Inicie um servidor local de desenvolvimento com recurso de "recarga" ao vivo para páginas estáticas e dinâmicas (Evita o F5).|    
 
 > **Nível** Avançado.
