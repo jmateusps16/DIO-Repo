@@ -10,7 +10,7 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 |Visual Studio Code|IDE|Editor de código de código aberto desenvolvido pela Microsoft.|
 |Live Server|Extensão|Inicie um servidor local de desenvolvimento com recurso de "recarga" ao vivo para páginas estáticas e dinâmicas (Evita o F5).|
 |Auto Rename Tag|Extensão|Auxilia no controle das Tags HTML e XML, caso altere alguma tag ele ajusta a tag correspondente.|
-|[The Movie Database(TMDB)](https://www.themoviedb.org/?language=pt-BR)|Site|Base de dados grátis sobre filmes e seriados.|
+|[The Movie Database(TMDB)](https://www.themoviedb.org/ "Ao clicar você será redirecionado para o site")|Site|Base de dados grátis sobre filmes e seriados.|
 
 
 > **Nível** Avançado.
