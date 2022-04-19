@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,4 +1,4 @@
-function validaArray(arr, num) {
+/* function validaArray(arr, num) {
     try {
             if (!arr && !num) throw new ReferenceError('Envie os parâmetros!');
 
@@ -25,4 +25,28 @@ function validaArray(arr, num) {
     }
 }
 
-console.log(validaArray([1, 2 , 3, 4, 5], a));
+console.log(validaArray([1, 2 , 3, 4, 5], a)); */
+
+//Async e Await
+/* PROMISES - Manipulação */
+/* const myPromise = new Promise((resolve, reject) => {window.setTimeout(() => {resolve('Resolvida');}, 2000);});
+
+await myPromise
+        .then((result) => result + ' passando pelo then')
+        .then((result) => result + ' e agora acabou!')
+        .catch((err) => console.log(err.message)); */
+
+async function resolvePromise() {
+        const myPromise => new Promise((resolve, reject) => {
+                window.setTimeout(() => {
+                        resolve('Resolvida');
+                }, 3000);
+        });
+
+        const resolved = await myPromise
+                .then((result) => result + ' passando pelo then')
+                .then((result) => result + ' e agora acabou!')
+                .catch((err) => console.log(err.message));
+
+        return resolved;
+}
