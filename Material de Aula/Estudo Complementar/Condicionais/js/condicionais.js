@@ -112,3 +112,16 @@ function setWeather() {
 }
 
 //Operador ternário
+
+let selectColor = document.getElementById('theme'); // usei para diferenciar do document query do switch.
+let html = document.querySelector('html');
+document.body.style.padding = '10px';
+
+function update(bgColor, textColor) {
+    html.style.backgroundColor = bgColor;
+    html.style.color = textColor;
+}
+
+selectColor.onchange = function() {
+    (selectColor.value === 'black') ? update('black','white') : update('white','black');
+}
