@@ -1,3 +1,6 @@
+// https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals
+
+// exemplo (1)
 /* var comprasFeitas = false;
 
 if (comprasFeitas === true) {
@@ -5,6 +8,7 @@ if (comprasFeitas === true) {
 } else {
     var granaFilhote = 5;
 } */
+
 let select = document.querySelector('select');
 let para = document.querySelector('p');
 
@@ -25,3 +29,56 @@ function setWeather() {
         para.textContent = '';
     }
 }
+
+// exemplo (2)
+/* let cheese = 'Cheddar';
+
+if (cheese) {
+    console.log('Yay! Cheese available for making cheese on toast.');
+} else {
+    console.log('No cheese on toast for you today.');
+} */
+
+// exemplo (1) reescrito de outra forma onde não precisa especificar explicitamente '=== true'
+/* let shoppingDone = false;
+
+if (shoppingDone) { //não precisa especificar explicitamente '=== true'
+    let childsAllowance = 10;
+} else {
+    let childsAllowance = 5;
+} */
+
+// aninhamento do if .... else
+/* if (choice === 'sunny') {
+    if (temperature < 86) {
+        para.textContent = 'It is ' + temperature + ' degrees outside — nice and sunny. Let\'s go out to the beach, or the park, and get an ice cream.';
+    } else if (temperature >= 86) {
+        para.textContent = 'It is ' + temperature + 'degrees outside — REALLY HOT! If you want to go outside, make sure to put some suncream on.';
+    }
+} */
+
+//Operadores AND, OR e NOT
+// AND
+/* if (choice === 'sunny' && temperature < 86) {
+    para.textContent = 'It is ' + temperature + ' degrees outside — nice and sunny. Let\'s go out to the beach, or the park, and get an ice cream.';
+} else if (choice === 'sunny' && temperature >= 86) {
+    para.textContent = 'It is ' + temperature + ' degrees outside — REALLY HOT! If you want to go outside, make sure to put some suncream on.';
+*/
+//OR
+/* if (iceCreamVanOutside || houseStatus === 'on fire') {
+    console.log('You should leave the house quickly.');
+} else {
+    console.log('Probably should just stay in then.');
+} */
+
+//NOT
+/* if (!(iceCreamVanOutside || houseStatus === 'on fire')) {
+    console.log('Probably should just stay in then.');
+} else {
+    console.log('You should leave the house quickly.');
+} */
+
+//Varias expressões
+/* if ((x === 5 || y > 3 || z <= 10) && (loggedIn || userName === 'Steve')) {
+    //run the code
+} */
