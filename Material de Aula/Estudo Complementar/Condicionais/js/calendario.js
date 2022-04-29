@@ -33,3 +33,43 @@ function criarCalendario(dias, escolha) {
 
 criarCalendario();
 
+let selectTema = document.getElementById('tema');
+let corpobody = document.querySelector('.corpo');
+
+selectTema.onchange = function(){
+    let escolhaTema = selectTema.value;
+
+    switch(escolhaTema) {
+        case '':
+            update('','');
+            break;
+
+        case 'white':
+            update('white','black');
+            break;
+
+        case 'black':
+            update('black','white');
+            break;
+
+        case 'purple':
+            update('purple','green');
+            break;
+
+        case 'yellow':
+            update('yellow','black');
+            break;
+        
+        case 'red':
+            update('red','yellow');
+            break;
+        case 'green':
+            update('green','white')
+            break;
+    }
+}
+
+function update(bgColor, textColor) {
+    corpobody.style.backgroundColor = bgColor;
+    corpobody.style.color = textColor;
+}

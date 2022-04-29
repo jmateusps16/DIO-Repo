@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/style-calendario.css">
     </head>
 
-    <body>
+    <body class="corpo">
         
         <label for="mes">Selecione o Mês: </label>
         <select id="mes">
@@ -32,8 +32,19 @@
         <div id="criaView">
             <ul id="dias"></ul>
         </div>
-
-
+        
+        <div id="temadiv">
+            <label for="tema">Select Theme: </label>
+            <select id="tema">
+                <option value="">--Make a Choice--</option>
+                <option value="white">Ranger Branco</option>
+                <option value="black">Venon</option>
+                <option value="purple">Curinga</option>
+                <option value="yellow">Wolverine</option>
+                <option value="red">Homem de Ferro</option>
+                <option value="green">Hulk</option>
+            </select>
+        </div>
         <script src="js/calendario.js"></script>
 
     </body>
