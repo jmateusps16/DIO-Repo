@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="Autor" content="João Mateus">
+        <title>Calendário com JS</title>
+        <link rel="stylesheet" href="css/style-calendario.css">
+    </head>
+
+    <body>
+        
+        <label for="mes">Selecione o Mês: </label>
+        <select id="mes">
+            <option value="">Selecione o Mês</option>
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+        </select>
+
+        <h1 id="mostraMes"></h1>
+        <p id="desc"></p>
+        <br />
+        <div id="criaView">
+            <ul id="dias"></ul>
+        </div>
+
+
+        <script src="js/calendario.js"></script>
+
+    </body>
+</html>

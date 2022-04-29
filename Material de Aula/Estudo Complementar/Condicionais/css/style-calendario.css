@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+}
+#criaView {
+    width: 500px;
+    box-sizing: border-box;
+}
+#dias {
+    padding-left: 0;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 15%;
+    border: 2px solid white;
+    padding: 5px;
+    height: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+/* #dias {
+    list-style-type: none;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    flex: 0 0 50%;
+    border: 1px solid red;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end;
+} */
