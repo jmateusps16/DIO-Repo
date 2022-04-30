@@ -73,6 +73,5 @@ falar();
 
 Animal.comer();
 let comer Animal.comer;
-comer(); */
-
-NomeUpe
+comer();
+*/
